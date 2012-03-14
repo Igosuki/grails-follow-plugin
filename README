@@ -1,1 +1,24 @@
-This file was created by IntelliJ IDEA 11.0.2 for binding GitHub repository
+Work in progress.
+---------------------
+
+Frameworks and tools :
+* Grails 2.0.1
+* Groovy 1.8.6
+* Java 7
+
+Known compatible IDEs :
+IntelliJ
+Eclipse
+
+Build this project from source :
+* Clone the repository on your hard drive
+* Install Grails http://grails.org/, put the binaries in your path
+
+To build the plugin :
+grails package-plugin
+
+Roadmap
+---------------------
+* Github realtime repository view
+* Compatibility with Spring Security to provide creation interface
+* Integration with grails simple-blog plugin
