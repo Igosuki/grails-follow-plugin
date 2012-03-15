@@ -1,5 +1,6 @@
 // configuration for plugin testing - will not be included in the plugin zip
 
+
 log4j = {
     // Example of changing the log pattern for the default console
     // appender:
@@ -21,4 +22,16 @@ log4j = {
            'net.sf.ehcache.hibernate'
 
     warn   'org.mortbay.log'
+}
+
+grails.plugin.follow = {
+    twitter {
+        account : ''
+        cdn : ''
+        hashtag : ''
+    }
+    github {
+        acount : ''
+        cdn :
+    }
 }
